@@ -1,4 +1,4 @@
-package bsnt.np.security;
+package security.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

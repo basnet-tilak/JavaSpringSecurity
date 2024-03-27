@@ -1,4 +1,4 @@
-package bsnt.np.controller;
+package security.controller;
 
 import bsnt.np.model.User;
 import bsnt.np.services.UserService;
