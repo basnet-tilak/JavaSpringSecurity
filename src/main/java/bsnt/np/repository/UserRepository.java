@@ -1,4 +1,4 @@
-package security.repository;
+package bsnt.np.repository;
 
 import bsnt.np.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

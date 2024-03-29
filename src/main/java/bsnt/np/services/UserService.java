@@ -1,4 +1,4 @@
-package security.services;
+package bsnt.np.services;
 
 import bsnt.np.model.User;
 import bsnt.np.repository.UserRepository;

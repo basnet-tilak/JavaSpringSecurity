@@ -1,4 +1,4 @@
-package security.model;
+package bsnt.np.model;
 
 import jakarta.persistence.*;
 import lombok.*;

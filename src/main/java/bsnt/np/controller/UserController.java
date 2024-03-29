@@ -1,4 +1,4 @@
-package security.controller;
+package bsnt.np.controller;
 
 import bsnt.np.model.User;
 import bsnt.np.services.UserService;
@@ -8,16 +8,16 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/api")
 public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping
+    @GetMapping("/users")
     public List<User> getAllUsers(){
         return userService.getAllUsers();
     }
-    @GetMapping("/{id}")
+    @GetMapping("/user/{id}")
     public User getUserById(@PathVariable Integer id){
         return userService.getUserById(id).orElse(null);
     }

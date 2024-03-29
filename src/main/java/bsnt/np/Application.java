@@ -1,4 +1,4 @@
-package security;
+package bsnt.np;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
